@@ -1,0 +1,5 @@
+require 'rails'
+require 'active_record'
+require 'active_support'
+require 'active_support/core_ext'
+require 'spec_helper'
