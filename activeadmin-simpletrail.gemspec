@@ -6,12 +6,12 @@ require 'active_admin/simple_trail/version'
 Gem::Specification.new do |spec|
   spec.name          = "activeadmin-simpletrail"
   spec.version       = ActiveAdmin::SimpleTrail::VERSION
-  spec.authors       = ["Hiroaki Ninomiya"]
-  spec.email         = ["ninomiya@spacemarket.co.jp"]
+  spec.authors       = ["Space Market, Inc."]
+  spec.email         = ["webservice@spacemarket.co.jp"]
 
   spec.summary       = %q{Simple paper trail for activeadmin.}
   spec.description   = %q{Track model's changes(by activeadmin), without database migration.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/spacemarket/activeadmin-simpletrail"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
